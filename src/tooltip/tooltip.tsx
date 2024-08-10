@@ -28,7 +28,7 @@ const TooltipAttributes = ({ attributes }: { attributes: string[] }) => {
 
 const TooltipAbility = ({ abilities }: { abilities: AbilityT[] }) => {
     return (
-        abilities.map((ability, index) => (
+        abilities.map((ability) => (
             <>
                 <S.TooltipAbilityHeader>
                     { ability.category }

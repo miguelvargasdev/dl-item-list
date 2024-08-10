@@ -1,12 +1,10 @@
-import { useMemo, useState, useEffect } from 'react';
-import * as S from './styled';
+import { useMemo, useState } from 'react';
 import { ItemT } from './types';
 import { items } from '../item/items'
 import { ItemCategory } from './enums';
 import { Item } from './item';
 import { ItemSection } from './itemSection';
 import { ItemTooltip } from '../tooltip/tooltip';
-import { Tooltip } from 'react-tooltip';
 
 export const TabContent = ({ activeTabIndex }: { activeTabIndex: number }) => {
 

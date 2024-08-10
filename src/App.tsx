@@ -1,9 +1,5 @@
 import { useState } from 'react'
-import { Item } from './item/item'
-import { items } from './item/items'
-import { ItemSection } from './item/itemSection'
 import './App.css'
-import { ItemCategory } from './item/enums'
 import { ItemsTabs } from './item/tabs'
 import { TabContent } from './item/tabContent'
 import 'react-tooltip/dist/react-tooltip.css';

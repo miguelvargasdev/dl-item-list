@@ -9,6 +9,7 @@ export type ItemT = {
     abilities?: AbilityT[];
     isComponentOf?: string;
     components?: string[];
+    isNew?: boolean;
 }
 export type AbilityT = {
     description: string;

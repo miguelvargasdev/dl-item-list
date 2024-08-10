@@ -1,6 +1,4 @@
-import React from 'react';
 import * as S from './styled';
-import { ItemT } from './types';
 import { ItemCategory } from './enums';
 
 

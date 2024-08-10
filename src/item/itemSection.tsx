@@ -1,6 +1,5 @@
 import React from 'react';
 import * as S from './styled';
-import { ItemT } from './types';
 import { ItemCategory } from './enums';
 
 export const ItemSection = ({ category, tier, children }: { category: ItemCategory, tier: number, children: React.ReactNode }) => {
