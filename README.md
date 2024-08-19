@@ -13,3 +13,4 @@ TODO:
 - Add credits to Valve
 - Add my own credits
 - START WORK ON BUILD CREATOR!!!!
+- Figure out way to automatically pull item data from game VPKs. (API?)
