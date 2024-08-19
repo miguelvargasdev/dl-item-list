@@ -124,7 +124,15 @@ export const TooltipHeader = styled.div<{ $category: ItemCategory }>`
     & h3 {
         color:#9AFFD6;
         margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 4px;
+        & img {
+            height: 1em;
+        }
     }
+    
 `
 
 export const TooltipAttributes = styled.div<{ $category: ItemCategory }>`

@@ -1,5 +1,6 @@
 import { ItemCategory } from '../item/enums';
 import { AbilityT, ItemT } from '../item/types';
+import soulSymbol from "../assets/soul-symbol.png";
 import * as S from './styled';
 
 /// TODO:
@@ -11,7 +12,7 @@ const ToolTipHeader = ({ name, cost, category }: { name: string, cost: number, c
     return (
         <S.TooltipHeader $category={category}>
             <h2>{name}</h2>
-            <h3>{cost}</h3>
+            <h3><img src={soulSymbol} alt="Soul Symbol"/> {cost}</h3>
         </S.TooltipHeader>
     )
 }
