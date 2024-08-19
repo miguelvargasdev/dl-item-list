@@ -66,7 +66,8 @@ export const Tabs = styled.div`
 `
 
 export const Tab = styled(motion.button)<{ $active: boolean, $category: ItemCategory }>`
-    font-family: 'TF2';
+    font-family: 'Deadlock';
+    font-weight: bold;
     font-size: 20px;
     color: #332409;
     position: relative;

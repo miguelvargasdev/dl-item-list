@@ -18,6 +18,10 @@ export const TabContent = ({ activeTabIndex }: { activeTabIndex: number }) => {
         return activeTabIndex === 0 ? ItemCategory.Weapon : activeTabIndex === 1 ? ItemCategory.Vitality : ItemCategory.Spirit;
     }, [activeTabIndex]);
 
+    // 1. Move filter/map function into a separate function.
+    // 2. Replace the filter/map function with the new function.
+    // 3. Use a loop to create these item sections instead of manually creating them.
+
     return (
         <>
             <ItemSection category={category} tier={1}>
